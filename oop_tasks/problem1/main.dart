@@ -1,4 +1,4 @@
-import 'problem1.dart';
+import 'laptop_class.dart';
 
 void main() {
   Laptop laptop_one = Laptop(15, 'Dell', 16);

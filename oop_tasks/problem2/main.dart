@@ -1,4 +1,4 @@
-import 'problem2.dart';
+import 'house_class.dart';
 
 void main() {
   List<House> houses = [];
