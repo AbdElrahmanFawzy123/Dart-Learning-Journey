@@ -1,0 +1,71 @@
+Answers of  section 3 Concepts :  
+
+1. Explain the diference between final and const in Dart. 
+
+Final : is a keyword receive a value for the variable during initialization or during runtime  
+
+And it considered as access modifier .. 
+
+Const : is a keyword that receive a value for the variable during initialization only not accept another value for that variable .... 
+
+ 
+
+2. What is null safety in Dart? Why is it important? 
+
+Null safety in Dart prevents variables from having null values(absence of value for variables) unless allowed,it’s importance for helping to avoid runtime errors. 
+
+ 
+
+ 
+
+3. What is the diference between List, Set, and Map? 
+
+List : is an orderd collection (indecies) and can store duplicate elements  
+
+And represented as sequare brackets...  
+
+List <String>names=['Abdo’,’Ahmed’,’Abdo’]; 
+
+===== 
+
+Set : is an unordered collections(has no indecies) used to store non duplicated elements and represented with carely braces{}; 
+
+Set<String>names={‘Abdo’,’Ahmed’}; 
+
+==== 
+
+Map: is a collection that data is stored in pairs(key and value),each key must be unique and always be string and you can access the value by their keys like index..... 
+
+=============================================== 
+
+4. Explain the concept of asynchronous programming in Dart. 
+
+It's a technique used to  allows the program to continue running while waiting for time-consuming operations like network requests, file reading, or database queries to complete. 
+
+Dart uses keywords like async, await, and Future to handle asynchronous operation... 
+
+============================================ 
+
+5. What is OOP and how does Dart support it? 
+
+OOP : is a programming paradigm (Style) to write and organise code  
+
+To solve problem ,it’s dependent on concept of classes and objects and the goal is to  make our code readable and reusable... 
+
+Dart support it by providing important concepts like : 
+
+Classes and objeects ===>> to creat model(bluePrint) and instances.. 
+
+Inheitance ===> by using keyword extends 
+
+Polymorphism ===>>  overiding the methods of the parent class  
+
+By subclasses .... 
+
+Encapsulation ===> by using (_) before object’s field or method .... 
+
+Interface : abstract class their method must be overridden...  
+
+===========================================  
+
+ 
